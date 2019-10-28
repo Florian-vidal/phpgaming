@@ -1,0 +1,81 @@
+/*----------------------------------------------------ACCUEIL---------------------------------------------------------*/
+body {
+    /*background: black;
+    font-family: 'Cinzel', serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Press Start 2P', cursive;*/
+    font-family: 'Saira', sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../img/banniere.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1banniere {
+    color: white;
+}
+
+.h1title {
+    color: #178FCC;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+hr {
+    margin: 60px;
+}
+
+.card {
+    -webkit-box-shadow: 0 0 5px 0 rgba(196,196,196,1);
+    -moz-box-shadow: 0 0 5px 0 rgba(196,196,196,1);
+    box-shadow: 0 0 5px 0 rgba(196,196,196,1);
+}
+
+.card-stock {
+    color: #5CAE31;
+    font-size: 1rem;
+}
+
+.card-price {
+    color: #F8612E;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 0 5px 2px rgba(196,196,196,1);
+    -moz-box-shadow: 0 0 5px 2px rgba(196,196,196,1);
+    box-shadow: 0 0 5px 2px rgba(196,196,196,1);
+}
+
+.footer {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#feffff+0,d2ebf9+100;Blue+3D+%2312 */
+    background: #feffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #feffff 0%, #d2ebf9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #feffff 0%,#d2ebf9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #feffff 0%,#d2ebf9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#d2ebf9',GradientType=0 ); /* IE6-9 */
+}
+
+/*----------------------------------------------------RESPONSIVE---------------------------------------------------------*/
+
+/*----------------------ACCUEIL--------------------------------*/
+@media only screen and (max-device-width: 980px) {
+
+    body {
+        /*background: blue;*/
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
