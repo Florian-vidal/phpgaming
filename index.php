@@ -267,6 +267,17 @@
                 </div>
             </div>
         </div>
+
+
+   <?php
+
+   $bdd = new PDO("mysql:host=localhost;dbname=phpgaming", "root", "root");
+   $requete = $bdd->query("SELECT * FROM customer");
+   $resultat = $requete->fetch();
+   echo $resultat['lastname'];
+
+    ?>
+
     </footer>
     <script src="https://kit.fontawesome.com/835008fdf4.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
