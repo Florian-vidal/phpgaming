@@ -270,10 +270,9 @@
             </div>
         </div>
 
-
    <?php
 
-   $bdd = new PDO("mysql:host=localhost;dbname=phpgaming", "root", "root");
+   $bdd = new PDO("mysql:host=localhost;dbname=phpgaming", "root", "");
    $requete = $bdd->query("SELECT * FROM customer");
    $resultat = $requete->fetch();
    echo $resultat['lastname'];
